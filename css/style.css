@@ -5,6 +5,8 @@
 @import url("components/banner.css");
 @import url("components/card.css");
 @import url("components/fichetechnique.css");
+@import url("components/PhotoBouton.css");
+@import url("components/cardfollowme.css");
 
 body {
 	font-family: 'lora', serif;

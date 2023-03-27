@@ -1,0 +1,44 @@
+.cardfollowme{
+    padding: 10px 5px 5px 10px;
+    margin: 0 auto;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(50,50,50,0.2);
+
+
+}
+
+.cardfollowme h3 {
+    Color:rgb(125,125,125);
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-size: : 5px;
+}
+
+.socialNetwork{
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    padding : 0px;
+    text-justify:center;
+
+}
+
+.socialNetwork li {
+    display: inline;
+    padding : 5px;
+}
+
+
+.cardfollowme a{
+    text-decoration: none;
+    Color:rgb(125,125,125);
+    transition: color 0.3s ease;
+}
+
+.cardfollowme a:hover{
+  Color:rgb(50,50,50);
+}
