@@ -1,7 +1,23 @@
 .fichetechnique{
-	padding: 0px 0px 0px 0px;
-	margin: 0px 10px 0px 15px;
+	display: grid;
+	height: 200px;
+	grid-template-rows: min-content min-content;
 }
+
+
+.fichetechnique .texte {
+	grid-row-start: 1;
+	padding: 0px 25px 0px 0px;
+}
+
+
+.fichetechnique .bouton {
+	grid-row-start: -1;
+}
+
+
+
+
 
 .fichetechnique h3 {
 	font-size: 24px;
@@ -11,4 +27,5 @@
 	font-size: 16px;
 	font-weight: lighter;
 	text-justify: justified;
+	text-align:justify;
 }

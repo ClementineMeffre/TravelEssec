@@ -1,9 +1,9 @@
 .card{
-	padding: 0px 5px 5px 10px;
+	padding: 0px 5px 5px 5px;
 	margin: 20px 0px;
 
 	display:flex;
-	align-items: center;
+
 	justify-content: space-between;
 
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
@@ -13,10 +13,20 @@
 }
 
 
-.card PhotoBouton{
-	align-self: start;
-	justify-self: start;
+	
+.card img{
+	height: 200px;
+	max-width: 300px;
+	border-radius: 6px;
+	margin: 25px 25px;
 }
+
+
+.card .fichetechnique{
+	height: 200px;
+	margin: 0px 0px 0px 0px;
+}
+
 
 
 

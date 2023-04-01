@@ -1,0 +1,40 @@
+.fichetechnique{
+	height: 350px;
+	padding: 0px 25px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	
+	display: flex;
+	flex-flow: column;
+	align-content: space-between;
+}
+
+.fichetechnique h3 {
+	font-size: 24px;
+}
+
+.fichetechnique h4,p {
+	font-size: 16px;
+	font-weight: lighter;
+	text-justify: justified;
+	text-align:justify;
+}
+
+.fichetechnique .bouton {
+	height: 100px;
+	
+
+}
+
+
+.fichetechnique .texte {
+	height: *px;
+	justify-self: start;
+	align-self: flex-start;
+
+}
+
+.fichetechnique .texte h4,p {
+	justify-self: start;
+	align-self: flex-start;
+
+}
