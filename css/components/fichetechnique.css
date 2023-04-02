@@ -1,23 +1,10 @@
 .fichetechnique{
-	display: grid;
-	height: 200px;
-	grid-template-rows: min-content min-content;
+	height: 250px;
+	padding: 0px 25px 0px 10px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
 }
-
-
-.fichetechnique .texte {
-	grid-row-start: 1;
-	padding: 0px 25px 0px 0px;
-}
-
-
-.fichetechnique .bouton {
-	grid-row-start: -1;
-}
-
-
-
-
 
 .fichetechnique h3 {
 	font-size: 24px;
@@ -26,6 +13,29 @@
 .fichetechnique h4,p {
 	font-size: 16px;
 	font-weight: lighter;
-	text-justify: justified;
+	text-justify: justify;
 	text-align:justify;
 }
+
+.fichetechnique .bouton {
+	margin: 0px 0px 30px 2px;
+	justify-self: center;
+	text-justify: center;
+}
+
+
+.fichetechnique .texte {
+	justify-self: start;
+	align-self: flex-start;
+}
+
+
+@media (max-width : 620px){
+    .fichetechnique .bouton{
+		display: flex;
+		direction: row;
+		align-items: center;
+		align-content: center;
+    }
+}
+
